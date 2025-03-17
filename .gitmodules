@@ -1,0 +1,3 @@
+[submodule "FastLZ"]
+	path = FastLZ
+	url = git@github.com:ariya/FastLZ.git
