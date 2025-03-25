@@ -6,7 +6,7 @@ DefaultNamespace = "fastlz"
 
 [Configs.Debug.Win64]
 CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\debug\\fastlz.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\fastlzd.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\release\\fastlz.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\fastlz.lib"]
