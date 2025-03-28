@@ -5,8 +5,7 @@ Name = "fastlz-beef"
 DefaultNamespace = "fastlz"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\windows\\fastlzd.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\fastlz_d.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\fastlz.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\fastlz.lib"]
